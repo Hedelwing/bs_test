@@ -1,0 +1,22 @@
+/* $material-dark: (
+    'background': #27262e,
+);
+ */
+$body-font-family: "Montserrat", sans-serif !default;
+$material-dark: (
+    'background': #27262e,
+    'cards': darken(#27262e, 1.5),
+    "text": (
+        "theme": #bb9f89,
+        "primary": #bb9f89,
+        "secondary": rgba(white, 0.6),
+        "disabled": rgba(white, 0.3),
+    ),
+    "icons": (
+        "active": #bb9f89,
+        "inactive": rgba(#bb9f89, 0.5),
+    ),
+    "inputs": (
+        "box": #bb9f89,
+    ),
+);
